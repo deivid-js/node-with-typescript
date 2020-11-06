@@ -1,0 +1,34 @@
+{
+  "name": "node-with-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Deivid Staehr <deividstaehr@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deivid-js/node-with-typescript.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "homepage": "https://github.com/deivid-js/node-with-typescript#readme",
+  "bugs": {
+    "url": "https://github.com/deivid-js/node-with-typescript/issues"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.0",
+    "@types/node": "^14.14.6",
+    "typescript": "^4.0.5"
+  }
+}
